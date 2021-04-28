@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h3>REGISTRATION FORM</h3>
+
+<form method="POST" action="mailto:ratnalakarthik1912@gmail.com">
+    <table class="table" align="center" cellpadding = "15" >
+    
+    <!----- First Name ---------------------------------------------------------->
+    <tr>
+    <td>FIRST NAME</td>
+    <td><input class="bdr" type="text" name="First_Name" placeholder="First Name" id="fname" maxlength="30"/>
+    (max 30 characters a-z and A-Z)
+    </td>
+    </tr>
+    
+    <!----- Last Name ---------------------------------------------------------->
+    <tr>
+    <td>LAST NAME</td>
+    <td><input class="bdr" type="text" name="Last_Name" placeholder="Last Name" id="lname" maxlength="30"/>
+    (max 30 characters a-z and A-Z)
+    </td>
+    </tr>
+    
+    <!----- Date Of Birth -------------------------------------------------------->
+    <tr>
+    <td>DATE OF BIRTH</td>
+    
+    <td>
+    <input class="bdr" type="date" name="dob" id="dob"  />
+    </td>
+    </tr>
+    
+    <!----- Email Id ---------------------------------------------------------->
+    <tr>
+    <td>EMAIL ID</td>
+    <td><input class="bdr" type="mail" name="Email_Id" id="email" placeholder="Email" maxlength="100" /></td>
+    </tr>
+
+    <!----- Email Id ---------------------------------------------------------->
+    <tr>
+        <td>PASSWORD</td>
+        <td><input class="bdr" type="password" name="password" id="psd" placeholder="Password" maxlength="25" /></td>
+        </tr>
+
+    
+    <!----- Mobile Number ---------------------------------------------------------->
+    <tr>
+    <td>MOBILE NUMBER</td>
+    <td>
+    <input class="bdr" type="number" name="Mobile_Number" id="phn" placeholder="Mobile Number" maxlength="10" />
+    (10 digit number)
+    </td>
+    </tr>
+    
+    <!----- Gender ----------------------------------------------------------->
+    <tr>
+    <td>GENDER</td>
+    <td>
+    <input type="radio" name="Gender" id="male" value="Male" /> Male
+    <input type="radio" name="Gender" id="female" value="Female" /> Female
+    </td>
+    </tr>
+    
+    <!----- Address ---------------------------------------------------------->
+    <tr>
+    <td>ADDRESS <br /><br /><br /></td>
+    <td><textarea style="border-radius: 5px;" name="Address" id="address" placeholder="address" rows="4" cols="30"></textarea></td>
+    </tr>
+    
+    <!----- City ---------------------------------------------------------->
+    <tr>
+    <td>CITY</td>
+    <td><input class="bdr" type="text" name="City" placeholder="city" maxlength="30" />
+    (max 30 characters a-z and A-Z)
+    </td>
+    </tr>
+    
+    <!----- Pin Code ---------------------------------------------------------->
+    <tr>
+    <td>PIN CODE</td>
+    <td><input class="bdr" type="text" name="Pin_Code" placeholder="pincode" maxlength="6" />
+    (6 digit number)
+    </td>
+    </tr>
+    
+    <!----- State ---------------------------------------------------------->
+    <tr>
+    <td>STATE</td>
+    <td><input class="bdr" type="text" name="State" placeholder="state" maxlength="30" />
+    (max 30 characters a-z and A-Z)
+    </td>
+    </tr>
+    
+    <!----- Country ---------------------------------------------------------->
+    <tr>
+    <td>COUNTRY</td>
+    <td><input class="bdr" style="font-family: 'Open Sans', sans-serif; font-size: 17px;" type="text" name="Country" value="INDIA" readonly="readonly" /></td>
+    </tr>
+    
+    <!----- courses ---------------------------------------------------------->
+    
+    <tr>
+    <td>COURSES : <br /></td>
+    
+    <td>
+    
+    <input type="checkbox" name="course_html" value="HTML" /> HTML
+    <input type="checkbox" name="course_css" value="CSS" /> CSS
+    <input type="checkbox" name="course_js" value="JAVASCRIPT" /> JAVASCRIPT
+    <input type="checkbox" name="course_php" value="PHP" /> PHP
+    </td>
+    </tr>
+   
+    <!----- comments ---------------------------------------------------------->
+    <tr>
+    <td>COMMENTS :<br /><br /><br /></td>
+    <td><textarea style="border-radius: 5px;" name="Comments" rows="4" cols="30"></textarea></td>
+    </tr>
+    
+    
+    <!----- Submit and Reset ------------------------------------------------->
+    <tr>
+    <td colspan="2" align="center">
+    <input class="btn" type="submit" value="Submit">
+    <input class="btn" type="reset" value="Reset">
+    </td>
+    </tr>
+    </table>
+ 
+</form>
+    
+</body>
+</html>
