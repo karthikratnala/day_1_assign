@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+body
+{
+  background-image: url(https://image.freepik.com/free-vector/abstract-wavy-papercut-colorful-background_67845-1089.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 h3{
     font-family: 'Montserrat', sans-serif; 
     font-size: 35pt;         
@@ -12,13 +18,12 @@ h3{
 
 .table{
     font-family: 'Architects Daughter', cursive; 
-    color:white; 
+    /* color:white; 
     font-size: 15pt; 
     font-style: normal;
     background-color: #4F6367; 
     border-collapse: collapse; 
-    border: 2px solid rgb(15, 15, 15);
-    width: 900px;
+    border: 2px solid rgb(15, 15, 15); */
   }
 
   table.inner{
@@ -29,15 +34,13 @@ h3{
 {
     border-radius: 5px;
     border: none;
-    width: 175px;
-    height: 25px;
+
 }
 
 .btn
 {
     border: none;
     border-radius: 5%;
-    width: 125px;
     height: 40px;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
